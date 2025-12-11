@@ -2,6 +2,7 @@ INSERT INTO Tickets (
  ticket_id, request_id, requester_seniority, filed_against, ticket_type, severity, priority_type, max_day
 
 ) VALUES
+ -- sample values taken from the csv --
 (96, 173, '4 - Management', 'Access/Login', 'Request', '2 - Normal', '0 - Unassigned', 1),
 (97, 434, '3 - Senior', 'Access/Login', 'Request', '2 - Normal', '2 - Medium', 1),
 (98, 1653, '2 - Regular', 'Systems', 'Request', '2 - Normal', '3 - High', 8),
@@ -19,4 +20,5 @@ INSERT INTO Tickets (
 (110, 1857, '2 - Regular', 'Access/Login', 'Request', '2 - Normal', '0 - Unassigned', 0),
 (111, 245, '1 - Junior', 'Access/Login', 'Request', '2 - Normal', '0 - Unassigned', 0),
 (112, 366, '1 - Junior', 'Hardware', 'Request', '2 - Normal', '1 - Low', 31),
+
 (113, 264, '4 - Management', 'Access/Login', 'Request', '2 - Normal', '0 - Unassigned', 0);
